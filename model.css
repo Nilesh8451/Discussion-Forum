@@ -1,0 +1,165 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0,0.1); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #FAFAFA;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.fclose {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.fclose:hover,
+.fclose:focus {
+    color:black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sclose{
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.sclose:hover,
+.sclose:focus {
+    color:black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.tclose{
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.tclose:hover,
+.tclose:focus {
+    color:black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.pclose{
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.pclose:hover,
+.pclose:focus {
+    color:black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.modal-body {padding: 2px 16px;}
+
+
+.button {
+    background-color:rgba(70,88,209,0.6);
+    border: none;
+    color: white;
+	margin:10px;
+    padding:12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.button1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+
+input[type= text]
+{
+	
+	width:100%;
+	padding:4px;
+	font-size:15px;
+	margin:3px;
+	opacity:0.5;
+}
+
+input[type= text]:hover
+{
+	opacity:1;
+}
+
+input[type= number]{
+	
+	padding:4px;
+	margin:6px;
+}
+
+input[type= checkbox]
+{
+	margin:3px;
+}
+#can{
+    position: relative;
+	float:right;
+	padding:10px;
+	display:inline-block;
+	font-size:15px;
+
+    
+}
+
+#d{
+	
+	width:20%;
+}

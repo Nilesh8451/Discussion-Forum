@@ -1,0 +1,491 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	
+}
+body{
+	margin:0;
+	background:white;
+}
+#header{
+	width: 100%;
+	height: 50px;
+	border-bottom:rgb(220,220,200) solid 1px;
+	position:fixed;
+}
+#logostyle
+{
+	position:relative;
+	float:left;
+	width:10%;
+	height:50px;
+	background-color:white;
+}
+#logotag{
+	
+	width:100%;
+	height:50px;
+	margin-left:10px;
+}
+#menustyle
+{ 
+margin: 0px auto;
+   position:relative;
+   float:left;
+	width:40%;
+	height:50px;
+	background-color:white;
+}
+#menustyle:hover,#profilestyle:hover,#searchstyle:hover{
+	border-bottom: red solid 1px;
+}
+#menustyle1
+{ 
+margin: 0px auto;
+   position:relative;
+   float:left;
+	width:33.33%;
+	height:50px;
+	background-color:white;
+}
+
+#searchstyle
+{
+float:left;
+	width:30%;
+	height:100%;
+	background-color:white;
+}
+#searchstyle input
+{
+	width:90%;
+	margin-top:12px;
+}
+#profilestyle
+{
+	position:relative;
+	margin:0;
+	   float:left;
+	width:10%;
+	height:50px;
+	background-color:white;
+}
+#buttonstyle
+{
+	   float:right;
+	width:10%;
+	height:50px;
+	background-color:yellow;
+}
+li>a{
+	text-decoration: none;
+	color:black;
+	font-family: sans-serif;
+	font-size: 10px;
+	text-align: center;
+}
+#menu{
+	display: block;
+}
+.search{
+	
+	position:relative;
+	left:15px;
+	width:90%;
+	padding:3px;
+	border-radius:3px;
+	border:none;
+    border:1px solid blue;
+	font-size:14px;
+	text-align:left;
+	margin-top:7px;
+	
+}
+#q{
+	background-color:#BC3430;
+	width:100%;
+	height:50px;
+	font-size:15px;
+	border-radius: 2px;
+	border:none;
+	color:white;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#p{
+	text-decoration:none;
+	display:block;
+	font-size:15px;
+	line-height:50px;
+	text-align:center;
+	width:100%;
+	height:50px;
+	margin:0;
+	/*	border-right:1px solid #534444;
+	border-left: 1px solid #534444;
+	*/
+}
+#m
+{
+	text-decoration:none;
+	display:block;
+	font-size:15px;
+	line-height:50px;
+	text-align:center;
+	width:100%;
+	height:50px;
+	margin:0;
+/*	border-right:1px solid #534444;
+	border-left: 1px solid #534444;
+	*/
+}
+li>a:hover
+{
+	background-color:#f7f7f7;
+	
+}
+#feeds
+{
+	margin-top:100;
+	margin-left:100;
+	width:15%;
+	height:80%;
+	position:fixed;
+	background-color:white;
+	
+}
+
+#help
+{
+	opacity:0.5;
+	top:0;
+	text-decoration:none;
+	position:relative;
+	float:right;
+	color:black;
+}
+
+#btn2
+{
+	
+	margin:10;
+	width:95%;
+	border-radius: 5px;
+	height:20px;
+	font-size:15px;
+}
+
+
+#userpart{
+	padding-top:50;
+	width:100%;
+	height:90%;
+/*	background-color:red;  */
+}
+
+#partone{
+	
+	width:980px;
+	height:595px;
+/*	background-color:blue;  */
+	float:left;
+}
+
+#parttwo
+{
+	width:365px;
+	height:595px;
+/*	background-color:yellow;  */
+	float:left;
+}
+
+#userinfo
+{
+	
+	width:980px;
+	height:220px;
+/*	background-color:aqua;  */
+}
+
+#adduserf{
+	
+	width:350px;
+	height:375px;
+/*	background-color:green;   */
+	float:left;
+}
+
+#userfield{
+	
+	width:180px;
+	height:375px;
+	float:right;
+/*	background-color:brown;  */
+}
+
+#displayinfo{
+	position:relative;
+	width:590px;
+	height:375px;
+/*	background-color:red;  */
+	float:left;
+	left:20px;
+}
+
+#addphoto{
+	width:350px;
+	height:220px;
+/*	background-color:yellow;  */
+	float:left;
+	
+}
+
+#photofield{
+	
+	width:180px;
+	height:220px;
+	float:right;
+/*	background-color:white;   */
+}
+
+#usernameinfo{
+	position:relative;
+	width:590px;
+	height:220px;
+/*	background-color:brown;   */
+	float:left;
+	left:20px;
+}
+
+#photosty{
+	position:relative;
+	width:100%;
+	height:150px;
+	border-radius:50%;
+	top:40px;
+
+}
+
+#addp{
+	text-decoration:none;
+	display:block;
+	font-size:18px;
+	background-color:rgba(148, 142, 142,0.7);
+	width:100%;
+	text-align:center;
+	position:relative;
+	top:20px;
+	font-family:q_serif, Georgia, Times, "Times New Roman", "Hiragino Kaku Gothic Pro", Meiryo, serif;
+	
+}
+
+#up{
+    font-family:q_serif, Georgia, Times, "Times New Roman", "Hiragino Kaku Gothic Pro", Meiryo, serif;
+	text-align: center;
+  
+}
+
+#choosefile{
+    position: relative;
+	width:780px;
+	height:200px;
+
+}
+input[type=file]
+{
+     font-family:q_serif, Georgia, Times, "Times New Roman", "Hiragino Kaku Gothic Pro", Meiryo, serif;
+	position: relative;
+	top:80px;
+	left:150px;
+	font-size: 25px;
+	   color: #B92B27;
+}
+
+#bu{
+	width: 120px;
+	height: 50px;
+	font-weight: bold;
+	position: relative;
+	background-color: #3E78AD;
+    font-size: 20px;
+    top:80px;
+    font-family:q_serif, Georgia, Times, "Times New Roman", "Hiragino Kaku Gothic Pro", Meiryo, serif;
+}
+.feedlinks
+{
+	text-decoration:none;
+	opacity:0.5;
+	display:block;
+	margin:10px;
+	font-size:15px;
+	color:black;
+	
+}
+.feedlinks:hover{
+	
+	color:blue;
+	background-color:#E6E6E6;
+}
+.une{
+
+	padding:7px;
+	color:black;
+	opacity:0.5;
+	text-decoration:none;
+	font-family: q_serif, Georgia, Times, "Times New Roman", "Hiragino Kaku Gothic Pro", Meiryo, serif;
+
+}
+
+.uname{
+
+     position: relative;
+     top: 5px;
+}
+#un{
+	font-family: q_serif, Georgia, Times, "Times New Roman", "Hiragino Kaku Gothic Pro", Meiryo, serif;
+	padding:12px;
+}
+#username{
+	position:relative;
+	top:30px;
+	width:100%;
+	height:40px;
+/*	background-color:yellow;   */
+	font-family: sans-serif;
+}
+
+
+
+#writedesc{
+	position:relative;
+	width:100%;
+	height:20px;
+/*	background-color:yellow;  */
+	top:50px;
+	font-family:q_serif, Georgia, Times, "Times New Roman", "Hiragino Kaku Gothic Pro", Meiryo, serif;
+	
+}
+
+#adddesc{
+	color:black;
+	text-decoration:none;
+		padding-left:12;
+}
+
+#adddesc:hover{
+
+	text-decoration:underline;
+}
+
+
+
+.dis{
+	
+	font-size:18px;
+	font-family:q_serif, Georgia, Times, "Times New Roman", "Hiragino Kaku Gothic Pro", Meiryo, serif;
+	padding:12px;
+}
+
+#descbox{
+	position: relative;
+	top:65px;
+    width:100%;
+    height: 90px;
+    float:left;    
+/*	background-color:yellow;  */
+}
+
+.descsty{
+   position: relative;
+   left:20px;
+   height: 80px;
+   width: 80%;
+   top:5px;
+   font-family:q_serif, Georgia, Times, "Times New Roman", "Hiragino Kaku Gothic Pro", Meiryo, serif ;
+   font-size: 17px;
+}
+
+
+#de{
+	font-weight: bold;
+    word-wrap: break-word;
+	padding-left: 12px;
+	font-family:q_serif, Georgia, Times, "Times New Roman", "Hiragino Kaku Gothic Pro", Meiryo, serif ;
+   
+}
+#addinfo{
+	position:relative;
+	 left:26px;
+	 top:20px;
+	   width:300px;
+	   height:250px;
+	 /*  background-color:red;  */
+}
+
+#crehigh{
+	font-family: q_serif, Georgia, Times, "Times New Roman", "Hiragino Kaku Gothic Pro", Meiryo, serif;
+	padding:12px;
+	font-size:17px;
+}
+
+
+
+.addlinks{
+	
+	text-decoration:none;
+	display:block;
+	margin:15px;
+	font-size:17px;
+	font-family: q_serif, Georgia, Times, "Times New Roman", "Hiragino Kaku Gothic Pro", Meiryo, serif;
+}
+
+.addlinks:hover{
+	
+	text-decoration:underline;
+}
+
+#knowsabout{
+	position:relative;
+	 left:26px;
+	 top:60px;
+	   width:300px;
+	   height:180px;
+	/*   background-color:red;*/
+}
+
+
+#ed{
+	display:none;
+	opacity:0.5;
+	top:0;
+	text-decoration:none;
+	position:relative;
+	color:black;
+}
+
+#username:hover  #ed{
+	  display:inline;
+}
+
+#n{
+     width:350px;
+     height: 100%;
+     float: left;
+}
+
+#e{
+	position: relative;
+	top:8px;
+     width:50px;
+     height: 100%;
+     float: left;
+}
+
+#usa{
+	position: relative;
+	bottom: 4px;
+	font-size: 18px;
+	width: 70%;
+	font-family:q_serif, Georgia, Times, "Times New Roman", "Hiragino Kaku Gothic Pro", Meiryo, serif ;
+
+}
+
